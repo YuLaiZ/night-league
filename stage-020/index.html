@@ -47,7 +47,7 @@
   th{padding:6px 8px;border-bottom:1px solid var(--line);color:var(--dim);font-size:12.5px;
     font-weight:500;text-align:left;white-space:nowrap}
   td{padding:7px 8px;border-bottom:1px solid #18202e;vertical-align:top}
-  th.num,td.num{text-align:right;font-family:var(--mono)}
+  th.num,td.num{text-align:right}td.num{font-family:var(--mono)}
   .tag{display:inline-block;padding:0 9px;border:1px solid #34405d;border-radius:99px;
     font-size:12px;line-height:1.7;color:var(--dim);white-space:nowrap}
   .tag.rookie{color:var(--amber);border-color:#5c4a28}
@@ -203,7 +203,7 @@ function drawBoard(g){
   ctx.moveTo(10,0);ctx.lineTo(518,0);ctx.arcTo(528,0,528,10,10);
   ctx.lineTo(528,518);ctx.arcTo(528,528,518,528,10);
   ctx.lineTo(10,528);ctx.arcTo(0,528,0,518,10);
-  ctx.lineTo(0,10);ctx.arcTo(0,0,10,0);
+  ctx.lineTo(0,10);ctx.arcTo(0,0,10,0,10);
   ctx.closePath();ctx.fill();
   ctx.strokeStyle="#26334f";ctx.lineWidth=1;
   ctx.beginPath();

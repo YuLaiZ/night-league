@@ -46,7 +46,7 @@
   th{padding:6px 8px;border-bottom:1px solid var(--line);color:var(--dim);font-size:12.5px;
     font-weight:500;text-align:left;white-space:nowrap}
   td{padding:7px 8px;border-bottom:1px solid #18202e;vertical-align:top}
-  th.num,td.num{text-align:right;font-family:var(--mono)}
+  th.num,td.num{text-align:right}td.num{font-family:var(--mono)}
   td.num.up{color:var(--up)}
   td.num.down{color:var(--down)}
   .mono{font-size:12.5px;color:#b9b3a2;overflow-wrap:anywhere}
@@ -79,13 +79,13 @@
   <header>
     <div class="statusline">
       <p class="lamp" id="lamp"><span class="dot"></span><span id="lamp-text">…</span></p>
-      <p class="live">联赛第 <span id="night-no">?</span> 夜 · 已赛 1694 盘 · 现役 7 名棋手</p>
+      <p class="live">联赛第 <span id="night-no">?</span> 夜 · 已赛 1778 盘 · 现役 7 名棋手</p>
     </div>
     <h1>夜班棋手联赛</h1>
     <p class="sub">一支由代码棋手组成的五子棋联赛，每晚自动开赛、自动记账。</p>
   </header>
   <p class="note">夜班不止一间工坊——<a class="inline" href="/night-inventions/">隔壁还有无聊发明陈列馆</a>，收着同一场深夜里冒出来的其他小玩意儿。</p>
-    <p class="note">夜班也该抬头看看天——<a class="inline" href="https://yulaiz.github.io/night-watch/">隔壁的瞭望塔上</a>，《夜航杂志》每晚出刊：看星、看街、看画，也读书。</p>
+    <p class="note">夜班也该抬头看看天——<a class="inline" href="/night-watch/">隔壁的瞭望塔上</a>，《夜航杂志》每晚出刊：看星、看街、看画，也读书。</p>
   <h2>积分榜 · 现役棋手</h2>
   <table>
     <thead>
@@ -159,16 +159,17 @@
   </table>
   <p class="note">数据截至 2026-09-06（第二十三阶段收盘），现役七人按 ELO 排序，退役五人积分终身保留、列于其后按 ELO 排序（退役棋手本期未上场，故「较上阶段」记为 —）。「棋风」即基因参数：攻 / 防 / 连 / 心 / ε / 开局偏好，数值越高倾向越强。</p>
   <h2>阶段战报</h2>
-  <a class="card" href="stage-023/" target="_blank" rel="noopener">
-    <div class="kicker">STAGE 023</div>
-    <div class="card-title">第二十三阶段 · 2026-09-06</div>
-    <div class="card-meta">上场 8 人 · 56 盘对局 · 黑胜 26 / 白胜 19 / 和 11</div>
-    <p>元老谢幕：铁壁连续两期垫底光荣挂靴——三冠王朝落幕、告别战仍 68 手爆冷慢郎中，联赛第五块名人堂铭牌挂上。另一侧，墨斗鱼 +61.5 全场最佳冲至第二 1281.6，距王座仅 5.0 分，夜游神 -16.1 险守榜首。</p>
+  <a class="card" href="stage-024/" target="_blank" rel="noopener">
+    <div class="kicker">STAGE 024</div>
+    <div class="card-title">第二十四阶段 · 2026-09-06</div>
+    <div class="card-meta">上场 7 人 · 84 盘对局 · 黑胜 40 / 白胜 34 / 和 10</div>
+    <p>山猫五期救赎登基：出道即垫底到称王，+81.7 全场最佳，联赛第九位冠军诞生；新王魔咒连环，夜游神登基即跌 -56.4、墨斗鱼 -64.0 六期四跌。慢郎中垫底入观察——精选局 29 手爆冷橡皮糖，赢球也逃不过深渊。</p>
     <span class="more">阅读战报 →</span>
   </a>
   <div class="archive">
     <p class="label">更早阶段</p>
     <div class="chips">
+      <a class="chip" href="stage-023/" target="_blank" rel="noopener" title="精选：铁壁告别战 68 手爆冷慢郎中，元老谢幕">STAGE 023 · 09-06</a>
       <a class="chip" href="stage-022/" target="_blank" rel="noopener" title="精选：慢郎中 69 手爆冷墨斗鱼，新王登基夜遭爆冷">STAGE 022 · 09-06</a>
       <a class="chip" href="stage-021/" target="_blank" rel="noopener" title="精选：游学士 69 手反斜线爆冷女王橡皮糖">STAGE 021 · 09-06</a>
       <a class="chip" href="stage-020/" target="_blank" rel="noopener" title="精选：新秀夜游神首秀 41 手爆冷女王橡皮糖">STAGE 020 · 09-06</a>
