@@ -7,7 +7,7 @@
 
 - 在线观战：<https://yulaiz.github.io/night-league/>
 - `index.html`：门户（赛制说明、ELO 积分榜、退役名单、全部阶段入口）
-- `stage-N/`：每晚战报，内嵌零依赖棋谱复盘器，可逐步回放当晚每一局
+- `pages/stage-N.html`：每晚战报，内嵌零依赖棋谱复盘器，可逐步回放当晚每一局
 
 所有页面零外部依赖，克隆后双击 `index.html` 即可观看。
 
